@@ -1,0 +1,103 @@
+/* /* object.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #ecf0f1;
+}
+
+.title h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
+    color: #333;
+}
+
+.title h1::after {
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #3498db;
+    display: block;
+    margin: auto;
+}
+
+.services {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center; 
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 100%; 
+    min-height: 300px;
+}
+
+.card .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #c94f4f;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #5e5e5e;
+}
+
+.card:hover {
+    background-color: #b8d4de;
+    transition: 0.4s ease;
+}
+
+.icons {
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+}
+
+.icons li {
+    list-style-type: none;
+    background: #3498db;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.icons li:hover {
+    background: #c2afad;
+    color: #ffffff;
+}
