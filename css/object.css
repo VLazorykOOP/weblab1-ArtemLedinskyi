@@ -1,15 +1,13 @@
-/* /* object.css */
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
     width: 100%;
     background-color: #ecf0f1;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title h1 {
@@ -19,19 +17,9 @@ body {
     color: #333;
 }
 
-.title h1::after {
-    content: "";
-    height: 4px;
-    width: 230px;
-    background-color: #3498db;
-    display: block;
-    margin: auto;
-}
-
 .services {
     width: 85%;
     display: flex;
-    justify-content: space-between;
     margin: 75px auto;
     text-align: center;
 }
@@ -45,7 +33,6 @@ body {
     padding: 20px 20px;
     background-color: #fff;
     border-radius: 10px;
-    cursor: pointer;
     height: 100%; 
     min-height: 300px;
 }
@@ -69,11 +56,6 @@ body {
     color: #5e5e5e;
 }
 
-.card:hover {
-    background-color: #b8d4de;
-    transition: 0.4s ease;
-}
-
 .icons {
     background: #2c3e50;
     display: flex;
@@ -82,7 +64,6 @@ body {
 }
 
 .icons li {
-    list-style-type: none;
     background: #3498db;
     color: #ffffff;
     width: 40px;
@@ -99,5 +80,4 @@ body {
 
 .icons li:hover {
     background: #c2afad;
-    color: #ffffff;
 }

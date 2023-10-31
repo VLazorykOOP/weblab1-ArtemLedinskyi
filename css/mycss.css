@@ -16,29 +16,16 @@ body {
 }
 
 .photo img {
-    display: block;
     width: 200px;
 }
 
 .left-side {
-    flex: 1;
     background: #2c3e50; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
-
-.container {
-    display: flex;
-    height: 100vh;
-}
-
-.right-side {
-    flex: 2;
-    background: #ecf0f1;
-    padding: 20px;
 }
 
 .forh2 {
@@ -63,8 +50,7 @@ body {
     padding: 0.8rem 0;
 }
 
-.icons li {
-    list-style-type: none;
+.icons li { 
     background: #3498db;
     color: #ffffff; 
     width: 40px;
@@ -100,7 +86,6 @@ body {
 }
 
 .right-side p {
-    position:relative;
     font-weight: 300;
     padding: 0.9rem;
     opacity: 0.8;
@@ -114,12 +99,12 @@ body {
 .icon-nav {
     background: #2c3e50;
     display:flex;
-    justify-content:center;
     padding: 0.8rem 0;
+    position: absolute;
+    top: 0;
 }
 
 .icon-nav li {
-    list-style-type: none;
     background: #3498db;
     color: #ffffff; 
     width: 40px;
@@ -138,8 +123,17 @@ body {
     background: #c2afad; 
     color: #ffffff;
 }
-.navigations{
-    position:absolute; 
-    top: 20px; 
-    left: 25vh;
+
+
+.button a{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button a:hover {
+    background-color: #c2afad;
 }
